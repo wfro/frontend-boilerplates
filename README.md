@@ -2,15 +2,12 @@ My boilerplate for React/Express.
 
 Want:
 
-- [ ] React
+- [x] React
 - [ ] Ract-router
-- [ ] Redux
+- [x] Redux
 - [ ] Karma + in-browser tests
-- [ ] Linting
+- [x] Linting
 - [ ] Express
-- [ ] HMR via webpack-hot-middleware
+- [x] HMR via webpack-hot-middleware
 - [ ] Production builds
-- [ ] React
-- [ ] React
-- [ ] React
 
