@@ -7,7 +7,6 @@ Want:
 - [x] Redux
 - [ ] Karma + in-browser tests
 - [x] Linting
-- [ ] Express
 - [x] HMR via webpack-hot-middleware
-- [ ] Production builds
+- [x] Production builds
 
