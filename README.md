@@ -1,29 +1,16 @@
-Bare minimum boiler to get up and running quickly with es2015 (including tests).
+My boilerplate for React/Express.
 
-Uses:
+Want:
 
-* Babel 6 (with es2015 presets)
-* Mocha/Chai
-* eslint (with [airbnb's config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb))
+- [ ] React
+- [ ] Ract-router
+- [ ] Redux
+- [ ] Karma + in-browser tests
+- [ ] Linting
+- [ ] Express
+- [ ] HMR via webpack-hot-middleware
+- [ ] Production builds
+- [ ] React
+- [ ] React
+- [ ] React
 
-## Install
-
-```
-npm install
-```
-
-## Test
-
-```
-npm test
-
-# or
-
-npm test:watch
-```
-
-## Lint
-
-```
-npm run lint
-```
