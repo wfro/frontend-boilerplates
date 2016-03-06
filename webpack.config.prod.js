@@ -19,8 +19,8 @@ module.exports = {
         include: path.join(__dirname, 'src'),
       },
       {
-        test: /\.css$/,
-        loader: 'style-loader!css-loader',
+        test: /\.scss$/,
+        loader: ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader"),
       },
     ],
   },
@@ -36,5 +36,6 @@ module.exports = {
         warnings: false,
       },
     }),
+    new ExtractTextPlugin("style.css", {allChunks: false})
   ],
 };
