@@ -11,6 +11,7 @@ My boilerplate for React/Express.
 Want:
 
 - [x] React
+- [ ] Sass modules (postcss)
 - [ ] React-router
 - [x] Redux
 - [ ] Karma + in-browser tests
