@@ -1,10 +1,17 @@
-In the golden age of the boilerplate, here are my various frontend boilerplates:
+Here are my various frontend boilerplates.  To use them, you'll probably want to delete the `.git` directory and start from scratch with your own repository:
+
+```
+git clone git@github.com:wfro/frontend-boilerplates.git
+cd frontend-boilerplates
+rm -rf .git
+git init
+```
+
+There are several branches:
 
 * [master](https://github.com/wfro/frontend-boilerplates/tree/master): Vanilla ES2015, mocha/chai
 * [react-redux-hmr-client-only](https://github.com/wfro/frontend-boilerplates/tree/react-redux-hmr-client-only): client-only react/redux
 * [planned but not added yet](): react/redux with some kind of JS backend
-
-```
 
 # Mmmmmm vanilla
 
@@ -12,11 +19,11 @@ Simple boilerplate for vanilla ES2015.  I typically use it for DOM experiments, 
 
 Uses:
 
-* ES2015 goodness via Babel 6
+* ES2015 via Babel
 * Mocha/Chai
 * eslint (with [airbnb's config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb))
 
-## Getting 
+## Install
 
 ```
 npm install
