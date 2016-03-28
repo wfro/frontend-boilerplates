@@ -12,9 +12,6 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/dist/',
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-  ],
   module: {
     loaders: [
       {
@@ -23,8 +20,8 @@ module.exports = {
         include: path.join(__dirname, 'src'),
       },
       {
-        test: /\.css$/,
-        loader: 'style-loader!css-loader',
+        test: /\.scss$/,
+        loaders: ['style', 'css', 'sass'],
       },
       {
         test: /\.(png|jpg)$/,
@@ -32,4 +29,7 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+  ],
 };
