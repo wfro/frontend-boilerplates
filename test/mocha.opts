@@ -1,0 +1,2 @@
+--require test/test-helper.js
+--require test/chai.js

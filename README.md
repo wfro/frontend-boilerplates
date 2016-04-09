@@ -6,16 +6,9 @@ In the golden age of the boilerplate, here are my various frontend boilerplates:
 
 # React/redux/hmr (client-only)
 
-My boilerplate for React/Express.
+TODO:
 
-Want:
-
-- [x] React
-- [ ] Sass modules (postcss)
 - [ ] React-router
-- [x] Redux
-- [ ] Karma + in-browser tests
-- [x] Linting
-- [x] HMR via webpack-hot-middleware
-- [x] Production builds
+- [ ] Karma
+- [x] in-browser tests
 
