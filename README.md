@@ -13,7 +13,7 @@ There are several branches:
 * [react-redux-hmr-client-only](https://github.com/wfro/frontend-boilerplates/tree/react-redux-hmr-client-only): client-only react/redux
 * [universal](https://github.com/wfro/frontend-boilerplates/tree/universal): react/express
 
-# React/express 
+# React/express
 
 #### Start the server for development:
 
@@ -60,7 +60,7 @@ npm run lint
 TODO:
 
 - [ ] Better docs
-- [ ] React-router
+- [x] React-router
 - [ ] Karma
 - [x] in-browser tests
 
