@@ -17,7 +17,7 @@ module.exports = {
       {
         test: /\.js$/,
         loaders: ['babel'],
-        include: path.join(__dirname, 'src'),
+        include: path.join(__dirname, 'src', 'client'),
       },
       {
         test: /\.scss$/,
@@ -25,7 +25,8 @@ module.exports = {
       },
       {
         test: /\.(png|jpg)$/,
-        loader: 'url?limit=25000'
+        loader: 'url?limit=25000',
+        include: path.join(__dirname, 'static'),
       },
     ],
   },
