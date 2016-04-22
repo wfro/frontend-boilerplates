@@ -17,7 +17,7 @@ There are several branches:
 
 TODO:
 
-- [ ] React-router
+- [ ] routing
+- [ ] redux devtools
 - [ ] Karma
-- [x] in-browser tests
 
