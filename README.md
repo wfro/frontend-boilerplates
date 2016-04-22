@@ -61,6 +61,6 @@ TODO:
 
 - [ ] Better docs
 - [x] React-router
+- [ ] redux devtools
 - [ ] Karma
-- [x] in-browser tests
 

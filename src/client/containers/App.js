@@ -3,7 +3,10 @@ import React from 'react'
 export default React.createClass({
   render() {
     return (
-      <div>Hiii</div>
-    )
+      <div>
+        Hi pizza
+        {this.props.children}
+      </div>
+    );
   },
 })

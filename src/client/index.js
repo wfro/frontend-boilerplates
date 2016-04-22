@@ -4,17 +4,24 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import configureStore from './store/configureStore'
+import { Router, Route, browserHistory } from 'react-router'
+import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 
 import './styles/app.scss';
 
 const store = configureStore()
 const root = document.getElementById('root')
 
+const history = syncHistoryWithStore(browserHistory, store)
+
 let render = () => {
   const App = require('./containers/App').default
   ReactDOM.render(
     <Provider store={store}>
-      <App />
+      <Router history={history}>
+        <Route path="/" component={App}>
+        </Route>
+      </Router>
     </Provider>,
     root
   )
