@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  devtool: 'eval-cheap-module-source-map',
+  devtool: 'cheap-eval-source-map',
   entry: {
     app: ['./src/index.js'],
   },
